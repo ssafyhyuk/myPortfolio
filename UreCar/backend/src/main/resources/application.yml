@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: UreCar
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/urecar?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ssafy
+    password: ssafy
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  servlet:
+    multipart:
+      max-file-size: 10MB  # 파일 하나의 최대 크기
+      max-request-size: 30MB  # 요청 전체의 최대 크기
+
+jwt:
+  token:
+    header: Authorization
+    secret: 18CB6A32EFEE1C3D5873D7D35F28D18CB6A32EFEE1C3D5873D7D35F28D18CB6A32EFEE1C3D5873D7D35F28D
+    access-expired-time: 3000 #10s
+    refresh-expired-time: 1209600000 #14d
+
+server:
+  port: 8080
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+  server:
+    port: 8081
+
+geocoder:
+  url: https://api.vworld.kr/req/address?service=address&request=getAddress&version=2.0&crs=epsg:4326&format=json&type=both&zipcode=true&simple=false
+  credentials:
+    secret-access-key: 5AD60FBD-952F-3953-9FCC-6E9694A17B63
+
+
+image:
+  url: C:\Users\SSAFY\Desktop\imageFolder\

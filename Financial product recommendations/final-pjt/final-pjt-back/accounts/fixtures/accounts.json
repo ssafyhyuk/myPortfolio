@@ -1,0 +1,117 @@
+[
+{
+  "model": "accounts.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$i5XX4Ox6F6wlY7GY0Ql5gd$2iqG7cTF9lO5Ff3P36M6tyPss5ZqKqLq764Ghzk3Zv8=",
+    "last_login": "2024-05-22T00:28:36.624Z",
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "toki@ssafy.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-22T00:25:36.583Z",
+    "age": 26,
+    "asset": "3억 ~ 6억",
+    "income": "3000만 ~ 6000만",
+    "nickname": "아스마 토키",
+    "image": "profile/user/아스마_토키.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$951my0oBUyGJ7DC64oIzCj$Y91nEr7CQX7f9fewmcefSAU3fh736YhVtQgLDgnlRSk=",
+    "last_login": "2024-05-22T00:26:19.051Z",
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "asuna@ssafy.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-22T00:26:18.802Z",
+    "age": 45,
+    "asset": "6억 ~ 10억",
+    "income": "6000만 ~ 1억",
+    "nickname": "이치노세 아스나",
+    "image": "profile/user/이치노세_아스나.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$tNBaqBX57Ppx90EolusBmC$xD/jfUr8FFFFA6X8RmXoAxXDAomukoiJt+H8GSXNYbo=",
+    "last_login": "2024-05-22T00:26:51.707Z",
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "",
+    "last_name": "",
+    "email": "mika@ssafy.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-22T00:26:51.458Z",
+    "age": 65,
+    "asset": "10억이상",
+    "income": "1000만 ~ 3000만",
+    "nickname": "미소노 미카",
+    "image": "profile/user/미소노_미카.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$G24V6mHlfPiPZyFk7dHkIV$B8/TrihzmzKbsXy1t94ot92lvH41Pkedc+7Ofa7b4mo=",
+    "last_login": "2024-05-22T00:27:22.377Z",
+    "is_superuser": false,
+    "username": "user4",
+    "first_name": "",
+    "last_name": "",
+    "email": "karin@ssafy.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-22T00:27:22.114Z",
+    "age": 43,
+    "asset": "3억 ~ 6억",
+    "income": "1억이상",
+    "nickname": "카쿠다테 카린",
+    "image": "profile/user/카쿠다테_카린.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8e0OcnwscoP1mNU8cq6vfi$R3X6JpH1Toye9PlB3t1a6cfdM+aiUlQPsQ+zrUEqRqA=",
+    "last_login": "2024-05-22T00:27:56.451Z",
+    "is_superuser": false,
+    "username": "user5",
+    "first_name": "",
+    "last_name": "",
+    "email": "nonomi@ssafy.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-22T00:27:56.185Z",
+    "age": 33,
+    "asset": "1억 ~ 3억",
+    "income": "6000만 ~ 1억",
+    "nickname": "이자요이 노노미",
+    "image": "profile/user/이자요이_노노미.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
